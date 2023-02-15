@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+body{
+    color: white;
+    line-height: 2.0;
+}
+
+#home{
+    background-image: url("../images/main-bg.jpg");
+    min-height: 100vh; /* 내용이들어간부분까지만 div라고 인식해서 배경범위 확장시켜줌 */
+}
+
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}

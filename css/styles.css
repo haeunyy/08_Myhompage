@@ -70,11 +70,68 @@
   box-sizing: border-box;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
   }
 }
+
+
+
+div.item{
+  animation: rotate_image 6s linear infinite;
+  transform-origin: 50% 50%;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotate_image{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+div.item:hover{
+  animation-play-state:paused;
+}
+
+
+
+
+.contactgd{
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  margin-top: 6%;
+  margin-bottom: 50px;
+}
+
+.contactgd p{
+  /* margin-top: 2rem; */
+  font-size: 2rem;
+  color: #535353;
+  font-style: italic;
+}
+
+.item {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#pjpf{
+  /* height: 249px; */
+}
+
+.skill{
+  width: 128px;
+}
+ 
+#git{
+  width: 60%;
+}
+
+
 
 body {
   margin: 0;
@@ -11456,3 +11513,4 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+

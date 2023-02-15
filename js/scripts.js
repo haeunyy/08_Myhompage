@@ -7,6 +7,11 @@
 // Scripts
 // 
 
+
+
+
+
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -55,5 +60,41 @@ window.addEventListener('DOMContentLoaded', event => {
     new SimpleLightbox({
         elements: '#portfolio a.portfolio-box'
     });
-
+    
 });
+
+
+function zoomin(event){
+    event.target.style.transform = "scale(2.2)"
+    event.target.style.zlndex = 1;
+    event.target.style.transition = "all 0.5s"
+}
+
+function zoomout(event){
+    event.target.style.transform = "scale(1)"
+    event.target.style.zlndex = 0;
+    event.target.style.transition = "all 0.5s"
+    }
+
+
+p.item
+
+var imgObj = null;
+var animate;
+function init(){
+    imgObj = document.getElementById('skill1');
+    imgObj.style.position = 'relative';
+    imgObj.style.left = '0px';
+}
+
+function moveRight(){
+    imgObj.style.left = parseInt(imgObj.style.left) + 10 +'px';
+    animate = setTimeout(moveRight,20); // 20밀리초마다 moveRight 함수 호출
+}
+
+function stop(){
+    clearTimeout(animate);
+    imgObj.style.left = '0px';
+}
+
+window.onload = init;
