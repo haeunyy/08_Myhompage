@@ -1,202 +1,313 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="ko">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Creative - Start Bootstrap Theme</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap Icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <!-- SimpleLightbox plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">h</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">skill</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Main-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">HAEUN</h1>
-                        <hr class="divider" />
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">PORTFOLIO</p>
-                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- About-->
-        <section class="page-section bg-primary" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">안녕하세요</h2>
-                        <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">
-                            백엔드 개발자 권하은입니다.<br>
-                            프로그래밍에 흥미를 느끼게되어 개발자로서의 길을 꿈꾸게 되었습니다. <br>
-                            노력하는 증진형 개발자로 계속해서 성장하겠습니다. <br>
-                            앞으로 지켜봐주시면 감사하겠습니다. 
-                        </p>
-                        <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">Skill</h2>
-                <hr class="divider" />
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5"> 
-                            <img id="skill1" onmouseover="zoomin(event)" onmouseleave="zoomout(event)" class="skil" src="assets/img/portfolio/thumbnails/java_original_logo_icon_146458.png"></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <img id="skill2" onmouseover="zoomin(event)" onmouseleave="zoomout(event)" class="skill" src="assets/img/portfolio/thumbnails/spring-logo-icon.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <img id="skill3" onmouseover="zoomin(event)" onmouseleave="zoomout(event)" class="skill" src="assets/img/portfolio/thumbnails/jsg.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <img id="skill4" onmouseover="zoomin(event)" onmouseleave="zoomout(event)" class="skill" src="assets/img/portfolio/thumbnails/pngwing.com.png" alt="">
-                        </div>
-                    </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, 그리고 Bootstrap 기여자들">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Product example · Bootstrap v5.2</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="canonical" href="https://getbootstrap.kr/docs/5.2/examples/product/">
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header class="site-header sticky-top py-1">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">h</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#middle">About</a></li>
+                  <li><a class="dropdown-item" href="#skillcon">skill</a></li>
+                  <li><a class="dropdown-item" href="#projectintro">Project</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#contactgd">contact me</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<main>
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 fw-normal">HAEUN</h1>
+      <p class="lead fw-normal">Portfolio</p>
+      <a class="btn btn-outline-secondary" href="#middle">Find Out More</a>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+
+  <div id="middle" class="vstack gap-2 col-md-5 mx-auto">
+    <div class="container px-4 px-lg-1">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="display-4 text-black mt-5">안녕하세요</h2>
+                <hr class="divider divider-light" />
+                <p class="about-self h5 text-center text-black-75 mb-10 ">
+                    백엔드 개발자 권하은입니다.<br>
+                    프로그래밍에 흥미를 느끼게되어 <br>
+                    개발자로서의 길을 꿈꾸게 되었습니다. <br>
+                    노력하는 증진형 개발자로 계속해서 성장하겠습니다. <br>
+                    앞으로 지켜봐주시면 감사하겠습니다. 
+                </p>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div id="skillcon" class="container px-4 px-lg-5">
+    <h2 class="text-center mt-0">Skill</h2>
+    <hr class="divider" />
+    <div class="row gx-4 gx-lg-5">
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5"> 
+                <img id="skill1" onmouseover="zoomin(event)" onmouseleave="zoomout(event)" class="skill" src="assets/img/portfolio/thumbnails/java_original_logo_icon_146458.png"></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+                <img id="skill2" onmouseover="zoomin(event)" onmouseleave="zoomout(event)" class="skill" src="assets/img/portfolio/thumbnails/spring-logo-icon.png" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+                <img id="skill3" onmouseover="zoomin(event)" onmouseleave="zoomout(event)" class="skill" src="assets/img/portfolio/thumbnails/jsg.png" alt="">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+                <img id="skill4" onmouseover="zoomin(event)" onmouseleave="zoomout(event)" class="skill" src="assets/img/portfolio/thumbnails/pngwing.com.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="skillcon" class="container px-5 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+            <div class="col text-center">
+                <div class="mt-5"> 
+                    <img id="skill1" onmouseover="zoomin(event)" onmouseleave="zoomout(event)" class="skill" src="assets/img/portfolio/thumbnails/nodejs-new-pantone-black.png"></a>
                 </div>
             </div>
-        </section>
-        </script>
-        <!-- Portfolio-->
-        <div id="portfolio">
-            <div class="container-fluid p-0">
-                <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/캡처 (2).PNG" title="유튜버 매니지먼트 회사 가상 관리 프로그램입니다.  ">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/캡처.PNG" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Project</div>
-                                <div class="project-name">유튜버 매니지먼트</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/pf.PNG" title="포트폴리오인데 약간의 msg가 포함된.">
-                            <img id="pjpf" class="img-fluid" src="assets/img/portfolio/thumbnails/pf.PNG" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Portfolio</div>
-                                <div class="project-name">웹 포트폴리오</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/pj3.PNG" title="이것도 구현해 봤고 저것도 구현해봤습니다. ">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/pj3.PNG" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Sub Project</div>
-                                <div class="project-name">달력</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/플젝2.PNG" title="이것도 해보고 저것도 해봤습니다. ">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/플젝2.PNG" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">toy project</div>
-                                <div class="project-name">홈페이지 방문자수</div>
-                            </div>
-                        </a>
-                    </div>
-
+            <div class="col text-center">
+                <div class="mt-5"> 
+                    <img id="skill1" onmouseover="zoomin(event)" onmouseleave="zoomout(event)" class="skill" src="assets/img/portfolio/thumbnails/file_type_sql_icon_130152.png"></a>
                 </div>
             </div>
         </div>
-
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Let's Get In Touch!</h2>
-                        <hr class="divider" />
-                        <p class="text-muted mb-5"></p>
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-
-                            <div class="contactgd wrapper">
-                                <p class="item">
-                                    <span>Email</span><br>
-                                    ibbihe@gmail.com
-                                </p> 
-                                <div class="item">
-                                    <a id="git" href="https://github.com/haeunyy?tab=repositories"><img id="git" src="assets/img/portfolio/thumbnails/pngaaa.com-94913.png" alt=""></a>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
+  </div>
+</div>
+<div id="projectintro" class="projectintro container">
+  <h2 class="text-center mt-0">Project</h2>
+  <hr class="divider" />
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="cardcol card" style="width: 18rem;">
+                    <img src="assets/img/portfolio/fullsize/pf.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Project</h5>
+                    <p class="card-text">유튜버 매니지먼트라는 가상의 회사 관리 프로그램</p>
+                    <a href="3_grid.html" class="btn btn-primary">move</a>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="bg-light py-5">
-            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2022 - Company Name</div></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- SimpleLightbox plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+            <div class="col">
+                <div class="cardcol card" style="width: 18rem;">
+                    <img src="assets/img/portfolio/fullsize/플젝2.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">캘린더 다이어리</h5>
+                    <p class="card-text">다이어리, 검색 등 사용자의 직업에 맞는 다양한 달력 기능이 포함 된 프로그램</p>
+                    <a href="2_column.html" class="btn btn-primary">move</a>
+                    </div>
+                </div>
+            </div> 
+            <div class="col">
+                <div class="cardcol card" style="width: 18rem;">
+                    <img src="assets/img/portfolio/fullsize/pj3.PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">단축키 검색사이트</h5>
+                    <p class="card-text">프로그램별 단축키 검색 사이트를 구현 </p>
+                    <a href="1_full-screen.html" class="btn btn-primary">move</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="cardcol card" style="width:18rem;">
+                    <img src="assets/img/portfolio/fullsize/캡처 (2).PNG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">영상 편집</h5>
+                    <p class="card-text">편집툴과 함께 로딩 대기시간을 단축시켜는 어메이징한 프로그램  </p>
+                    <a href="index2.html" class="btn btn-primary">move</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+    <div class="col-lg-6">
+        <!-- * * * * * * * * * * * * * * *-->
+        <!-- * * SB Forms Contact Form * *-->
+        <!-- * * * * * * * * * * * * * * *-->
+        <!-- This form is pre-integrated with SB Forms.-->
+        <!-- To make this form functional, sign up at-->
+        <!-- https://startbootstrap.com/solution/contact-forms-->
+        <!-- to get an API token!-->
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <!-- Name input-->
+
+            <div class="contactgd wrapper">
+                <div class="item ">
+                    <p>
+                        Email<br>
+                        ibbihe@gmail.com
+                    </p> 
+                <div class="item">
+                    <a id="git" href="https://github.com/haeunyy?tab=repositories"><img id="git" src="assets/img/portfolio/thumbnails/pngaaa.com-94913.png" alt=""></a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div id="contactgd" class="contactgd wrapper">
+    <div class="item ">
+        <p>
+            Email<br>
+            ibbihe@gmail.com
+        </p> 
+    <div class="item">
+        <a id="git" href="https://github.com/haeunyy?tab=repositories"><img id="git" src="assets/img/portfolio/thumbnails/pngaaa.com-94913.png" alt=""></a>
+    </div>
+</div>
+<!-- 
+    <div id="contact-grid" class="container px-2 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+            <div class="col text-center">
+                <p>
+                    Email<br>
+                    ibbihe@gmail.com
+                </p> 
+            </div>
+            <div class="col text-center">
+                <div class="col item rounded float-end">
+                    <a id="git" href="https://github.com/haeunyy?tab=repositories"><img id="git" src="assets/img/portfolio/thumbnails/pngaaa.com-94913.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+  </div> -->
+<!-- <div class="container px-10 px-lg-4">
+    <div id="container" class="con-container">
+        <div class="row">
+            <div class="col rounded float-end">
+                <p>
+                    Email<br>
+                    ibbihe@gmail.com
+                </p> 
+            </div>
+        </div>
+        <div class="col item rounded float-end">
+            <a id="git" href="https://github.com/haeunyy?tab=repositories"><img id="git" src="assets/img/portfolio/thumbnails/pngaaa.com-94913.png" alt=""></a>
+        </div>
+    </div>
+</div> -->
+</main>
+</body>
+
+<footer class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+      <small class="d-block mb-3 text-muted">&copy; 2017–2023</small>
+    </div>
+  </div>
+  
+</footer>
+
+
+    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      
+  </body>
 </html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- meta tag : metadata(정보에 대한 정보) 제공 
+         화면에 표시 되지는 않지만 검색 엔진/브라우저에 읽힘 -->
+    <meta charset="UTF-8">
+    <!-- IE 브라우저에서 최신 표준 모드를 선택하는 문서 모드 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 뷰 포트 : 화면 상의 화상 표시 영역. 너비를 디바이스에 맞춤. 기본 배율은 1. 
+    데스크탑 화면과 모바일의 뷰 포트는 차이가 있기 때문. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3_grid</title>
+    <!-- 외부 스타일 시트 -->
+    <link href="../resources/css/style.css" rel="stylesheet" type="text/css">
+    <!-- favicon (Real Favicon Generator 활용 )-->
+    <link rel="icon" type="image/x-icon" href="../resources/images/favicon.ico">
+    <!-- 리셋 CSS 
+    브라우저별로 디폴트로 적용 된 CSS(여백, 폰트 등)에 차이가 있으므로 브라우저 별로 다르게 보일 수 있어
+    리셋 CSS를 활용한다. -->
+    <link href="https://unpkg.com/ress/dist/ress.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="menu" class="big-bg">
+        <header class="page-header wrapper">
+            <h1><a href="1_full-screen.html">
+                <img class="logo" src="../resources/images/logo.png" alt="HOME">
+            </a></h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="2_column.html">News</a></li>
+                    <li><a href="3_grid.html">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="menu-content wrapper">
+            <h2 class="page-title">Menu</h2>
+            <p>
+                웹 개발자 양성과정에 오신 여러분을 진심으로 환영합니다. 
+                웹 어플리케이션 개발에 대한 기초를 다지기 위해 해당 과정에서 학습할 수 있는
+                하단의 메뉴를 확인해보세요.
+            </p>
+        </div>
+    </div>
+    <div class="grid wrapper">
+        <div class="item">
+            <img src="../resources/images/java.png" alt="java">
+            <p>Java 시작하기</p>
+        </div>
+        <div class="item">
+            <img src="../resources/images/oracle.jpg" alt="oracle">
+            <p>Oracle 시작하기</p>
+        </div>
+        <div class="item">
+            <img src="../resources/images/html.png" alt="html">
+            <p>HTML 시작하기</p>
+        </div>
+        <div class="item big-box">
+            <img src="../resources/images/css.png" alt="css">
+            <p>CSS 시작하기</p>
+        </div>
+        <div class="item">
+            <img src="../resources/images/js.png" alt="javascript">
+            <p>JavaScript 시작하기</p>
+        </div>
+        <div class="item">
+            <img src="../resources/images/react.jpg" alt="react">
+            <p>React 시작하기</p>
+        </div>
+        <div class="item">
+            <img src="../resources/images/servlets.png" alt="servlets">
+            <p>Servlets 시작하기</p>
+        </div>
+        <div class="item">
+            <img src="../resources/images/spring.png" alt="spring">
+            <p>Spring Framework 시작하기</p>
+        </div>
+        <div class="item">
+            <img src="../resources/images/jpa.png" alt="jpa">
+            <p>JPA 시작하기</p>
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; 2023 Team Greedy</small></p>
+        </div>
+    </footer>
+</body>
+</html>

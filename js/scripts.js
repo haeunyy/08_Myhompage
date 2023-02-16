@@ -74,10 +74,8 @@ function zoomout(event){
     event.target.style.transform = "scale(1)"
     event.target.style.zlndex = 0;
     event.target.style.transition = "all 0.5s"
-    }
+}
 
-
-p.item
 
 var imgObj = null;
 var animate;
